@@ -1,22 +1,22 @@
-body{
-    font:15px/1.5 Arial,Helvetica,sans-serif;
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background: #35424a;
     color: #ffff;
     padding-top: 30px;
@@ -24,82 +24,83 @@ header{
     border-bottom: #3c8cf3 3px solid;
 }
 
-header a{
+header a {
     color: #f4f4f4;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-header li{
+header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
 
-header #branding{
+header #branding {
     float: left;
 }
 
-header #branding h1{
+header #branding h1 {
     margin: 0;
 }
 
-header nav{
+header nav {
     float: right;
     margin-top: 10px;
 }
 
-header .highlight, header .current a{
+header .highlight,
+header .current a {
     color: #3c8cf3;
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
     color: #cccccc;
     font-weight: bold;
 }
 
-#showcase{
+#showcase {
     min-height: 400px;
-    background: url(./img/showcase.jpg) 0 -400px;
+    background: url(/img/showcase.jpg) 0 -400px;
     text-align: center;
     color: #ffff;
 }
 
-#showcase h1{
+#showcase h1 {
     margin-top: 100px;
     font-size: 55px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 
-#showcase p{
+#showcase p {
     font-size: 20px;
 }
 
-#newslatter{
+#newslatter {
     padding: 15px;
     color: #ffff;
     background: #35424a;
 }
 
-#newslatter h1{
+#newslatter h1 {
     float: left;
 }
 
-#newslatter form{
+#newslatter form {
     float: right;
     margin-top: 15px;
 }
 
-#newslatter input [type="email"]{
+#newslatter input [type="email"] {
     padding: 4px;
     height: 25px;
     width: 250px;
 }
 
-.button_1{
-    height:  38px;
+.button_1 {
+    height: 38px;
     background: #3c8bf3;
     border: 5 solid;
     padding-left: 20px;
@@ -107,22 +108,22 @@ header a:hover{
     color: #ffff;
 }
 
-#boxes{
+#boxes {
     margin-top: 20px;
 }
 
-#boxes .box{
+#boxes .box {
     float: left;
     text-align: center;
     width: 30%;
     padding: 10px;
 }
 
-#boxes .box img{
+#boxes .box img {
     width: 90px;
 }
 
-footer{
+footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffff;
@@ -130,18 +131,18 @@ footer{
     text-align: center;
 }
 
-aside #sidebar{
+aside #sidebar {
     float: right;
     width: 30%;
     margin-top: 10px;
 }
 
-article #main-col{
+article #main-col {
     float: left;
     width: 65%;
 }
 
-.dark{
+.dark {
     padding: 15px;
     background: #35424a;
     color: #ffff;
@@ -149,7 +150,7 @@ article #main-col{
     margin-bottom: 10px;
 }
 
-ul #service li{
+ul #service li {
     list-style: none;
     padding: 20px;
     border: #cccccc solid 1px;
@@ -157,39 +158,45 @@ ul #service li{
     background: #e6e6e6;
 }
 
-aside #sidebar .quote input,aside #sidebar .quote textarea{
+aside #sidebar .quote input,
+aside #sidebar .quote textarea {
     width: 90%;
     padding: 5px;
 }
 
 @media(max-width:768px) {
-header #branding,
-header nav,
-header nav li,
-#newslatter h1,
-#newslatter form,
-#boxes .box,
-article #main-col,
-aside #sidebar{
-    float: none;
-    text-align: center;
-    width: 100%;
-}
-header{
-    padding-bottom: 20px;
-}
 
-#showcase h1{
-    margin-top: 40px;
-}
+    header #branding,
+    header nav,
+    header nav li,
+    #newslatter h1,
+    #newslatter form,
+    #boxes .box,
+    article #main-col,
+    aside #sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 
-#newslatter button, .quote button{
-    display: block;
-    width: 100%;
-}
+    header {
+        padding-bottom: 20px;
+    }
 
-#newslatter form input[type="email"], .quote input, .quote textarea{
-    width: 100%;
-    margin-bottom: 5px;
-}
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #newslatter button,
+    .quote button {
+        display: block;
+        width: 100%;
+    }
+
+    #newslatter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
 }
